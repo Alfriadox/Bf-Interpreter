@@ -1,7 +1,7 @@
 # BrainFuckInterpreter
 An interpreter for Brain Fuck (their name, not mine) written in Rust.
 
-Brain Fuck is an esoteric language based around using verry few characters.
+Brain Fuck is an esoteric language based around using very few characters.
 
 It works around a single expandable array of integers and uses 8 commands.
 
@@ -20,3 +20,5 @@ It works around a single expandable array of integers and uses 8 commands.
   \[ if the current cell contains 0, move to the character after the associated ].
   
   \] if the current cell does not contain 0, move back to the associated [.
+
+All other characters are seen as comments.
