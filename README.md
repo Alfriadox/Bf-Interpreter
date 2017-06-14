@@ -22,3 +22,14 @@ It works around a single expandable array of integers and uses 8 commands.
   \] if the current cell does not contain 0, move back to the associated [.
 
 All other characters are seen as comments.
+
+
+### install
+ depends on:
+ * Rust
+ 
+ clone the project and move into its directory, then
+ ` cargo build --release`
+ 
+### use:
+  ` ./target/release/brain_fuck_interpreter <file.bf> `
