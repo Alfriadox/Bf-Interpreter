@@ -19,7 +19,7 @@ All other characters are seen as comments.
 
 ### install
  depends on:
- * Rust
+ * Rust (1.15 or higher should work)
  
  clone the project and move into its directory, then
  ` cargo build --release`
