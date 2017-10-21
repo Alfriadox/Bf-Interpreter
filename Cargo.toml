@@ -1,5 +1,5 @@
 [package]
-name = "brain_fuck_interpreter"
+name = "bf_interpreter"
 version = "1.0.0"
 authors = ["antonia"]
 
